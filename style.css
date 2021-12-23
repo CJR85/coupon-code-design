@@ -23,6 +23,7 @@
   padding: 40px 80px;
   border-radius: 15px;
   box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.15);
+  position: relative;
 }
 
 .logo {
@@ -60,4 +61,23 @@
   padding: 10px 20px;
   color: #7158fe;
   cursor: pointer;
+}
+
+.circle1,
+.circle2 {
+  background: #f0fff3;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.circle1 {
+  left: -25px;
+}
+
+.circle2 {
+  right: -25px;
 }
